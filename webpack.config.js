@@ -18,6 +18,7 @@ const config = {
       background_color: "#01579b",
       theme_color: "#ffffff",
       start_url: "/",
+      display: "standalone",
       icons: [
         {
           src: path.resolve("public/icons/icon-512x512.png"),

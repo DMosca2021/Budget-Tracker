@@ -4,6 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+    "webpack": "webpack",
+    "prestart": "npm run webpack",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "lite-server": "lite-server"
